@@ -2,7 +2,7 @@
 
 read -p "请输入第一个数字" num1
 read -p "请输入第二个数字" num2
-read -n 1 -p "请输入运算符(+-*/)" operator
+read -n 1 -p "请输入运算符(+ - * /)中的任意一个" operator
 echo
 
 if [ -n "$num1" ] && [ -n "$num2" ]
